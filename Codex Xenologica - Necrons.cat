@@ -9,6 +9,102 @@
         <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 3, Blast (3&quot;), Blind, Concussive (1), Stable Singularity</characteristic>
       </characteristics>
     </profile>
+    <profile name="Death Sphere" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="170f-d883-1dd8-b2b6">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Large Blast (5&quot;), Blind, Concussive</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Transdimensional Beamer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2ece-59cc-636b-654e">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">-</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Exile Ray</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Transdimensional Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="924f-121f-3ef4-ba12">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">-</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Exile Ray</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Transdimensional Projector" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d92e-660c-906d-c8af">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">-</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Exile Ray</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Transdimensional Portal" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="cc56-11e1-8287-b66d">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">-</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (6&quot;), Exile Ray, One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Reaper" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3b2a-2782-7838-6011">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Blaster (high power)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2500-771a-94cf-7bf4">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Blaster (low power)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e6df-1913-2f31-9435">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Cannon (high power)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="5b6c-e2c8-b986-3783">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Cannon (low power)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="701f-45fa-dfd8-995b">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Annihilator (high power)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="cbc0-da01-9726-73d2">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Apocalyptic Blast (10&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Annihilator (low power)" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9a0a-3932-46c7-c0d0">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;)</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Necron Overlord" hidden="false" id="b065-bfaa-47b1-96cd">
