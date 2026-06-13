@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="f8c3-4dd1-2b6e-590f" name="Liber Primaris" gameSystemId="5e35-3874-e708-3931" gameSystemRevision="130" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Sternguard Veterans" hidden="false" id="5126-d011-aa80-6615"/>
+  </sharedSelectionEntries>
+</catalogue>

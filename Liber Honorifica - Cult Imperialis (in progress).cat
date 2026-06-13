@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="6461-0c9e-3f75-5b62" name="Liber Honorifica - Cult Imperialis (in progress)" gameSystemId="5e35-3874-e708-3931" gameSystemRevision="130" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Ministorum Confessor" hidden="false" id="bac2-1c9a-5c2e-737b">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="5cd1-6f9e-0931-0a4c" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Ministorum Confessor" hidden="false" id="cb51-9a9c-65c0-445f" targetId="bac2-1c9a-5c2e-737b" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

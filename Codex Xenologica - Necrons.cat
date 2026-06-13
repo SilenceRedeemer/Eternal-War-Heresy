@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="aa4a-ff52-b4b0-be5c" name="Liber Xenologica - Necrons (in progress)" gameSystemId="5e35-3874-e708-3931" gameSystemRevision="130" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Singularity Generator" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="34e5-72df-b546-2901">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 3, Blast (3&quot;), Blind, Concussive (1), Stable Singularity</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Necron Overlord" hidden="false" id="b065-bfaa-47b1-96cd">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="7dd8-ef94-1e2f-2035" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Necron Overlord" hidden="false" id="4db3-2f01-a1aa-6623" targetId="b065-bfaa-47b1-96cd" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

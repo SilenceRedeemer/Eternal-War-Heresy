@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="e282-fc2b-b72c-f75b" name="Liber Xenologica - Tyranids (in progress)" gameSystemId="5e35-3874-e708-3931" gameSystemRevision="130" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Hive Tyrant" hidden="false" id="e1a8-bc5f-cf30-7280">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="340"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="6cc3-280e-3f46-53f2" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Hive Tyrant" hidden="false" id="03b8-e093-1955-b793" targetId="e1a8-bc5f-cf30-7280" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

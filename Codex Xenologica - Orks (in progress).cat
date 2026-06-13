@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="6eec-75c3-2532-50ef" name="Liber Xenologica - Orks (in progress)" gameSystemId="5e35-3874-e708-3931" gameSystemRevision="130" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Ork Warboss" hidden="false" id="1204-f6a0-5ac3-728d">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="6613-623f-69cb-3583" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Ork Warboss" hidden="false" id="95ab-a708-46c4-5501" targetId="1204-f6a0-5ac3-728d" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="6d63-e2b9-366c-ea29" name="Liber Heretica - Astartes Chaotica (in progress)" gameSystemId="5e35-3874-e708-3931" gameSystemRevision="130" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Rubric Marines" hidden="false" id="647e-aaa1-6ca5-18ac">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Aspiring Sorcerer" hidden="false" id="1faa-8ead-8d29-c1a4">
+          <profiles>
+            <profile name="Aspiring Sorcerer" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="04e6-2c38-5db5-e8d2">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Psyker)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d73-98fe-3515-0c5e-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d73-98fe-3515-0c5e-max" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Force Staff" hidden="false" id="e7cb-607d-d759-52cf" type="selectionEntry" targetId="5132-9034-5e79-13c8"/>
+            <entryLink import="true" name="Power Armour" hidden="false" id="1124-9425-2f6a-f72a" type="selectionEntry" targetId="2d9d-480e-7c14-1a6f"/>
+            <entryLink import="true" name="Frag Grenades" hidden="false" id="a3bb-0596-596e-dd7c" type="selectionEntry" targetId="cf9c-327b-3449-00d7"/>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="493f-a780-6f48-81ee" type="selectionEntry" targetId="99df-2421-acf7-a5ad"/>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Pistol" id="8f5b-e16b-156c-a5c3" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Inferno Pistol" hidden="false" id="8548-49ff-70a6-19cd"/>
+                <selectionEntry type="upgrade" import="true" name="Warpflame Pistol" hidden="false" id="6522-ea79-3cf7-34ff"/>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Plasma Pistol" hidden="false" id="b01a-e84c-9beb-ea2c" type="selectionEntry" targetId="717f-cf0a-1593-4bd8"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Rubric Marine" hidden="false" id="dbfc-29e3-1b24-edb1">
+          <profiles>
+            <profile name="Rubric Marine" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="6e80-f86e-be66-f2ed">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Automata (Marionnette)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Power Armour" hidden="false" id="4d2d-c48c-e735-1b87" type="selectionEntry" targetId="2d9d-480e-7c14-1a6f"/>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="ee56-a199-7b71-9a59">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5ed-d9d6-fbaa-71eb" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="f721-d8a8-d0f5-612a" includeChildSelections="false"/>
+            <constraint type="max" value="14" field="selections" scope="parent" shared="true" id="7ad7-558c-4e25-2442" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Wargear" id="30a0-2702-f6fd-ac4b" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Inferno Bolter" hidden="false" id="89ec-321a-4f39-a84c"/>
+                <selectionEntry type="upgrade" import="true" name="Warpflamer" hidden="false" id="ea29-fba6-c308-ae2d"/>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Rubric Marine with Soulreaper Cannon" hidden="false" id="eadc-00e8-fff4-f420">
+          <profiles>
+            <profile name="Rubric Marine" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="331e-bdc5-c6f2-2ef5">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Automata (Marionnette)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Power Armour" hidden="false" id="9171-b03c-d897-274a" type="selectionEntry" targetId="2d9d-480e-7c14-1a6f"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="0a32-3e23-d504-d447" includeChildSelections="false"/>
+            <constraint type="max" value="14" field="selections" scope="parent" shared="true" id="51fa-6d2e-4697-ccd9" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Wargear" id="d573-3a86-56d0-6688" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Soulreaper Cannon" hidden="false" id="f5ee-c881-c214-cc0f"/>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="fd3e-29be-3ba3-a6d7" primary="true" name="Elites:"/>
+        <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e921-2e0d-ef43-c942" primary="false" name="Infantry Unit Type"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chaos God" hidden="false" id="127b-815d-c1d6-4322">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Tzeentch" hidden="false" id="f1f0-4ed9-a1ac-b0e4"/>
+        <selectionEntry type="upgrade" import="true" name="Khorne" hidden="false" id="01ec-32a5-0e75-0e14"/>
+        <selectionEntry type="upgrade" import="true" name="Slanesh" hidden="false" id="48fc-9ff3-e160-b8e6"/>
+        <selectionEntry type="upgrade" import="true" name="Nurgle" hidden="false" id="15d8-f3bc-4941-ce63"/>
+        <selectionEntry type="upgrade" import="true" name="Undivided" hidden="false" id="4e0c-d543-c79e-a50e"/>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Legions Astartes" id="3acb-a307-a38f-ad72" targetId="e884-5c20-d7c6-2262" importRootEntries="true"/>
+  </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="Corrupted Sub-type" id="6c32-b6ae-b5a8-aef6" hidden="false">
+      <rules>
+        <rule name="Corrupted Sub-type" id="8648-be20-f3bf-bce7" hidden="false">
+          <description>The following rules apply to all models with the Corrupted Engine Sub-type:
+• All models with the Corrupted Sub-type gain the Fear (1) special rule.
+• Any Hits inflicted on a model with the Corrupted Sub-type by a weapon with the Force or Psychic Focus special rules gain the Instant Death special rule.
+• Any unit composed entirely of models with the Corrupted Sub-type is immune to the effects of the Fear (X) special rule, automatically passes Regroup tests and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule. When a unit composed entirely of models with the Corrupted Sub-type fails a Morale check it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no saves or Damage Mitigation rolls of any kind allowed.
+• No model that does not also have the Corrupted Sub-type or the Daemon Type may join a unit that includes one or more models with the Corrupted Sub-type.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Fear (X)" id="086f-3b87-60e9-8d23" hidden="false" type="rule" targetId="21f6-7842-df5c-d2e7">
+          <modifiers>
+            <modifier type="set" value="Fear (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry name="Corrupted Engine Sub-type" id="3cc3-a704-5205-49f2" hidden="false">
+      <rules>
+        <rule name="Corrupted Engine Sub-type" id="e256-027d-2636-9c9c" hidden="false">
+          <description>The following rules apply to all models with the Corrupted Engine Sub-type:
+• All models with the Corrupted Engine Sub-type gain the Fear (1) special rule, or if it already has the Fear (X) special rule, it increases the value of X by 1 instead.
+• Any rule, effect or modifier that would affect a model with the Corrupted Unit Sub-type also affects a model with the Corrupted Engine Unit Sub-type (e.g., the Anathema Sub-type special rules or the Inexorable special rule).
+• Any unit composed entirely of models with the Corrupted Engine Unit Sub-type is immune to the effects of the Fear (X) special rule, automatically passes Regroup tests and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule. When a unit composed entirely of models with the Corrupted Engine Unit Sub-type fails a Morale check, it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no saves or Damage Mitigation rolls of any kind allowed.
+• Any Hits inflicted on a model with the Corrupted Engine Unit Sub-type by a weapon with the Force or Psychic Focus special rules gain the Instant Death special rule.
+• If a model with the Corrupted Engine Subtype has a Wound characteristic and suffers an unsaved Wound with the Instant Death special rule it is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it.
+• No model that does not also have the Corrupted Engine Sub-type may join a unit that includes one or more models with the Corrupted Engine Unit Sub-type.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Marionette Sub-type" id="8b5f-b4d2-f673-5e2f" hidden="false">
+      <rules>
+        <rule name="Marionette Sub-type" id="3eeb-d0f5-5a51-4f8a" hidden="false">
+          <description>The following rules apply to all models with the Marionette sub‑type:
+• Unless a Marionette unit also includes a model with the Psyker sub-Type, or is within 6” of a friendly model with both the Psyker sub-Type and Independant Character and Astartes Chaotica (Architects of Fate) special rule, that unit is subject to the Programmed Behavior provision:
+-- During both the controlling player’s Shooting phase and the Charge sub-phase, a Marionette unit must attempt a Shooting Attack and/or Charge if there is an enemy unit within range, and must target the closest enemy unit possible that is within its line of sight and is a valid target for a Shooting Attack or Charge. If two or more targets are equally close then the controlling player chooses which will be the target of a Shooting Attack or Charge.
+• A unit that includes any Marionette models cannot Run or perform Sweeping Advances.
+• Marionette models can make Shooting Attacks with Heavy and Ordnance weapons, counting as Stationary, even if they moved in the previous Movement phase. They are also allowed to Charge in the same turn they fire Heavy, Ordnance or Rapid Fire weapons.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedRules>
+    <rule name="Animus Erased" id="c60e-3101-7212-a694" hidden="false">
+      <description>When a Wound inflicted by a weapon with this special rule is allocated to a model with a Wounds characteristic of 8 or more, the value of that Weapon’s Brutal (X) special rule is increased by 3 (from 3 to 6, for instance). Against models with an Armour value, a Penetrating Hit causes the loss of D3+1 Hull Points in addition to any other effects of the Penetrating Hit.</description>
+    </rule>
+    <rule name="Behemoth" id="3990-7ba8-142e-adde" hidden="false">
+      <description>A model with this special rule cannot embark upon any transport (even a transport with a rule that specifically allows models of its Type to embark upon it, such as the Dreadnought Transport special rule) unless that model has the Super-heavy or Lumbering sub-type.</description>
+    </rule>
+    <rule name="Berzerk Fury (X)" id="da63-1f49-3510-7013" hidden="false">
+      <description>During a turn in which a unit successfully charged into combat, or was itself charged, the Strength, Toughness and Attacks characteristic of models with this special rule in that unit are
+each increased by the number in brackets. However, during any turn of close combat in which the unit did not charge into combat, or was not charged, the Weapon Skill and Initiative characteristics of models in that unit are each reduced by the number in brackets.</description>
+    </rule>
+    <rule name="Chaos Artillerists" id="53b9-b867-b8c2-6d89" hidden="false">
+      <description>A Hellforged Rapier Battery must have one Legionnaire Crew per Rapier Carrier in order for all Hellforged Rapiers to make Shooting Attacks in the Shooting phase. If, at the start of any of the controlling player’s Shooting phases, the Hellforged Rapier Battery contains fewer Legionnaire Crews than Hellforged Rapiers then only a number of Hellforged Rapiers equal to the number of Legionnaire Crews may make Shooting Attacks in that Shooting phase. In addition, as long as there are at least as many Legionnaire Crews in the unit as there are Rapier Carriers then the unit cannot be Pinned, automatically passing any Pinning tests it is called upon to take without any dice being rolled, and all Legionnaire Crews in the unit gain a bonus of +1 to their Leadership Characteristic (this bonus is lost immediately once the number of Legionnaire Crews is reduced to less than the number of Rapier Carriers in the unit).</description>
+    </rule>
+    <rule name="Chaos Retinue (X)" id="ca98-11ed-d2b3-d9c5" hidden="false">
+      <description>A model with this special rule may select another unit, corresponding to the unit entry listed in brackets) as part of the same Detachment. A unit selected in this manner
+is considered a ‘Retinue Squad’ and the model with the Chaos Retinue (X) special rule is referred to as the Retinue Squad’s Leader for the purposes of this special rule (if the Detachment includes more than one model with the Chaos Retinue (X) special rule then the controlling player selects one as the unit’s Leader). The Retinue Squad does not use up a Force Organization slot and is considered part of the same unit as the model selected as its Leader. The Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play.</description>
+    </rule>
+    <rule name="Crazed" id="ddb9-1edc-0c16-54c9" hidden="false">
+      <description>At the end of any Shooting phase in which an unengaged model with this special rule has lost any Wounds, that model takes a Leadership test at its own Leadership, with a penalty equal to the amount of Wounds lost during that Shooting Phase. If the test is successful, nothing happens. if failed, the model makes a shooting attack, using all of its ranged weapons, targeting the closest other unit, friendly or enemy. If the target is a friendly unit, the opposing player makes all decision when placing any templates. The model makes this Shooting Attack even if it made a Shooting Attack or Reaction in the same phase. No reactions may be made against that Shooting Attack. This special rule has no effect if the model has no Ranged weapons.</description>
+    </rule>
+    <rule name="Crushing Weight" id="7f16-dc5e-961b-d764" hidden="false">
+      <description>When the controlling player resolves a Ram Attack using a model with this special rule, targeting an enemy model that has the Vehicle Unit Type, then any Hits inflicted are always
+resolved at Strength 12 (see the rules for Weapon Strengths above 10). When resolving a Ram Attack against a unit that is not made up entirely of models with the Vehicle Unit Type, 6+D6 Str 10 Hits are inflicted instead.</description>
+    </rule>
+    <rule name="Cult Authority" id="b3b8-4d57-bba7-2664" hidden="false">
+      <description>A model with this special rule can never be an army’s Warlord. Whilst a model with this special rule is on the battlefield, friendly Chaos Cultists units within 6” of the model and that can draw Line of Sight to it can use its Leadership, instead of their own.</description>
+    </rule>
+    <rule name="Daemonic Onslaught" id="e407-bb8d-94aa-80c0" hidden="false">
+      <description>When attacking with a weapon that has this special rule, the controlling player rolls a D6 before any attacks are made. On a 2+, the bearer makes a number of additional attacks with this weapon equal to the result of the roll. On a 1, the bearer suffers 1 Wound and the weapon gains the Cumbersome special rule until the end of the phase. No saving throws or damage mitigation rolls of any kind can be made against that Wound.</description>
+    </rule>
+    <rule name="Daemonic Machine Spirit" id="7da8-00e8-e17e-0bf0" hidden="false">
+      <description>A Vehicle with this special rule may attack different targets with each Ranged weapon it is permitted to fire during any Shooting Attack.</description>
+    </rule>
+    <rule name="Deathstorm" id="5f95-098a-648d-c769" hidden="false">
+      <description>When making a Shooting Attack, select up to four enemy units within range and line of sight of the attacking unit and make a Shooting Attack using the weapon’s profile against each unit instead of following the normal procedure (any individual enemy unit may only be selected as a target once, and if there are less than four enemy units within line of sight and range then each viable target may be attacked). Each unit targeted is attacked with the full number of attacks listed as part of the weapon’s profile; for example, a weapon with the Heavy 6 type and the Deathstorm special rule would select up to four enemy units within range and line of sight and roll six dice To Hit against each unit.</description>
+    </rule>
+    <rule name="Detonation" id="4244-283b-0e65-b123" hidden="false">
+      <description>A weapon with this special rule may only be used to attack models of the Vehicle, Dreadnought or Automata Unit Types, any model with a Movement Characteristic of 0 or ‘-’, or Buildings or Fortifications. Furthermore, a model that is chosen to attack with a weapon with this special rule during the Assault phase may only make a single attack in the Fight subphase, regardless of its Attacks Characteristic and any bonus attacks from Charging or other special rules.</description>
+    </rule>
+    <rule name="Dreadnought Band" id="4fc7-be06-3d6d-15f2" hidden="false">
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this special rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit.</description>
+    </rule>
+    <rule name="Dreadnought Transport" id="3c0c-f4f1-175e-afe1" hidden="false">
+      <description>A model with this special rule may transport a single model with the Dreadnought Unit Type with no more than 8 Wounds instead of any other models. A Dreadnought model may not Embark upon a model with this special rule if any other models are already Embarked on it, and while a Dreadnought model is Embarked on a model with this special rule then no other models may Embark.</description>
+    </rule>
+    <rule name="Eye of the Gods" id="987d-2058-2dd0-3c78" hidden="false">
+      <description>A model with this special rule must issue and accept challenges, whenever possible. If a model with this special rule is fighting in a challenge, its Invulnerable Save is improved by 1 step (to a maximum of 3+). If a model with this special rule destroys an enemy model it is fighting a challenge with with its attacks, or if an enemy model refused a challenged issued by a model with this special rule during this turn, the model with this special rule’s side gains +1 to combat resolution for that combat.</description>
+    </rule>
+    <rule name="Feedback" id="28a7-8294-918f-0076" hidden="false">
+      <description>If a weapon with this special rule fails its Armour Penetration roll against a target with an Armour Value, or fails a To Wound roll against any other model (note that successful Armour Saves or Damage Mitigation rolls do not count for this), roll a D6. If the result is a 1, the attacking model loses 1 Hull Point or Wound.</description>
+    </rule>
+    <rule name="Flank Speed" id="fe59-f54e-9e49-81a7" hidden="false">
+      <description>A model with this special rule may increase its Movement Distance by 4” in any Movement phase, but if it does so it may not make any Shooting Attacks in the subsequent Shooting phase. Note this model may still Charge in the Assault phase. In addition, when declaring a Charge after making a Shooting Attack, a model with this special rule may Charge a unit that it did not target in that turn’s Shooting phase, provided that the target of the Charge meets all other criteria of a valid Charge target.</description>
+    </rule>
+    <rule name="Gnaw" id="0e73-e44e-cb23-4546" hidden="false">
+      <description>Successful Armour Saves made against a weapon with this special rule must be re-rolled.</description>
+    </rule>
+    <rule name="Heat Blast" id="7b7b-5110-8e8c-7849" hidden="false">
+      <description>When a model with this special rule is deployed onto the battlefield using the Deep Strike special rule, and once all models arriving from Deep Strike in the same Phase have been placed in their final positions, but before any models Embarked on the model with this special rule have Disembarked, any models within 3+D3” (friendly or enemy) suffer a Str 6 AP 5 Hit (models with the Vehicle Unit Type are struck on the Armour facing with the lowest Armour Value, and this attack counts as an attack from a Flame weapon).
+In addition, when moving in Hover mode, the controlling player may choose to inflict D6 Str 6 AP 5 Hits on any unit that a model with this special rule moves over. Any Wounds caused are allocated by the controller of the target unit, any models with the Vehicle Unit Type are struck on the Armour facing with the lowest Armour Value, and this attack counts as an attack from a Flame weapon. Once the model has finished moving, the controlling player must roll a D6 for each unit it has inflicted Hits upon using this special rule – any results of a ‘1’ inflict a Hull Point of damage on the model with this special rule.</description>
+    </rule>
+    <rule name="Impale" id="d500-f492-65eb-c9f6" hidden="false">
+      <description>A unit may re-roll Charge Rolls when attempting to Charge an enemy unit that has suffered one or more Hits from a weapon with the Impale special rule caused by one or more models in the unit for which the Charge was declared in the same player turn. This takes effect even if no Wounds are caused by the Hits. If one or more Wounds are caused by a weapon with this rule, the affected unit decreases its Initiative characteristic by 1 until the end of the subsequent Assault phase.</description>
+    </rule>
+    <rule name="Inertial Guidance System" id="ac8b-e59a-4630-3cfe" hidden="false">
+      <description>When deployed as the first model placed during a Deep Strike Assault, or other deployment that requires a model with this special rule to scatter, the distance the model scatters is reduced by half and if it scatters into Impassable Terrain or off of the battlefield then it is moved the minimum distance required to avoid such obstacles. In addition, if all units included in a Deep Strike Assault have the Inertial Guidance System special rule or are models Embarked on a model with that special rule then any rolls made to determine if the Deep Strike Assault is Disordered may be re-rolled.</description>
+    </rule>
+  </sharedRules>
+  <entryLinks>
+    <entryLink import="true" name="Rubric Marines" hidden="false" id="9d60-34cf-e1d2-c6e8" targetId="647e-aaa1-6ca5-18ac" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

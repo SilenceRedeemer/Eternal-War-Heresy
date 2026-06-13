@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="3484-c758-3fd5-0ce6" name="Liber Heretica - Daemons (in progress)" gameSystemId="5e35-3874-e708-3931" gameSystemRevision="130" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Bloodthirster" hidden="false" id="5aed-980b-3750-d556">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="430"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="9d82-86ad-4e80-5c9b" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Bloodthirster" hidden="false" id="3086-60de-2790-0200" targetId="5aed-980b-3750-d556" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

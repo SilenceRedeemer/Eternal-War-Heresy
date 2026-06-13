@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="25dd-403f-4ffc-097a" name="Liber Honorifica - Sororitas (in progress)" gameSystemId="5e35-3874-e708-3931" gameSystemRevision="130" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Sororitas Canoness" hidden="false" id="0f89-4aae-532f-71d0">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="HQ:" hidden="false" id="5cb9-28de-e6f8-4213" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Sororitas Canoness" hidden="false" id="9399-e775-fe3a-4de0" targetId="0f89-4aae-532f-71d0" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>
